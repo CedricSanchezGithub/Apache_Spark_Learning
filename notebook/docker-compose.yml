@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    container_name: my_jupyter_notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+    user: root
+    command: >
+      bash -c "apt-get update && apt-get install -y openjdk-11-jdk && 
+               pip install pyspark && 
+               start-notebook.sh --NotebookApp.token=''"

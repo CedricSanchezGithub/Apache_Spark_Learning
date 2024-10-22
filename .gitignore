@@ -1,0 +1,20 @@
+# Default ignored files
+Apache Spark/shelf/
+Apache Spark/workspace.xml
+# Editor-based HTTP Client requests
+Apache Spark/httpRequests/
+# Datasource local storage ignored files
+Apache Spark/dataSources/
+Apache Spark/dataSources.local.xml
+
+# Default ignored files
+Kotlin_Back/shelf/
+Kotlin_Back/workspace.xml
+# Editor-based HTTP Client requests
+Kotlin_Back/httpRequests/
+# Datasource local storage ignored files
+Kotlin_Back/dataSources/
+Kotlin_Back/dataSources.local.xml
+
+notebook/env
+notebook/.ipynb_checkpoints
