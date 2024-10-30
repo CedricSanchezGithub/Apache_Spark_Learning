@@ -30,8 +30,6 @@ dependencies {
 
     // tests
 
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
-    testImplementation("io.mockk:mockk:1.13.0")
 }
 
 kotlin {
